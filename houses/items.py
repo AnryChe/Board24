@@ -9,12 +9,9 @@ import scrapy
 
 
 class HousesItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
+    # Dirty items from site
     _id = scrapy.Field()
-    p_head = scrapy.Field()
-    price = scrapy.Field()
-    h_sqr = scrapy.Field()
-    h_rooms = scrapy.Field()
+    ad_head = scrapy.Field()
+    ad_text = scrapy.Field()
     link = scrapy.Field()
-    curency = scrapy.Field()
+
